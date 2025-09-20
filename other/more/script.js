@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             countdownEl.textContent = `Redirigiendo en ${counter}...`;
                         } else {
                             clearInterval(interval);
-                            window.location.href = "corazon\index.html"; // 👈 cambia aquí al archivo que quieras
+                            window.location.href = "corazon/index.html"; // 👈 cambia aquí al archivo que quieras
                         }
                     }, 1000);
                 }, 5000);
